@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/gray_deep</item>
+        <item name="colorPrimaryDark">@color/gray_deep</item>
+        <item name="colorAccent">@color/gray_deep</item>
+        <!--直接生效，状态栏文字颜色变成黑色，非沉浸式-->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
